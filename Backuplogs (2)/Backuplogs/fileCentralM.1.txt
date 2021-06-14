@@ -1,0 +1,200 @@
+2020-05-02 16:54:37.4263|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-02 16:54:37.6173|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-02 16:54:57.1083|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-02 16:54:58.4353|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-02 16:54:58.6783|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-02 16:55:21.9878|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-02 16:55:21.9878|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:113)|ConsoleManagement.Tools.RemoteProxy|No remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-02 16:55:21.9878|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:369)|ConsoleManagement.Tools.RemoteProxy|Trying to connect using WebSockets...|
+ 
+2020-05-02 16:55:21.9878|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:375)|ConsoleManagement.Tools.RemoteProxy|WebSockets server URL: wss://panel2.backupexpert.pl/ws|
+ 
+2020-05-02 16:55:21.9878|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:378)|ConsoleManagement.Tools.RemoteProxy|Sending remote command to DB: CONNECT|
+ 
+2020-05-02 16:55:23.4979|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:23.5169|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:15|
+ 
+2020-05-02 16:55:23.5169|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9810020 ms for handshake retry...|
+ 
+2020-05-02 16:55:28.4992|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:28.4992|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:09.9986619|
+ 
+2020-05-02 16:55:28.4992|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9869759 ms for handshake retry...|
+ 
+2020-05-02 16:55:33.4989|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:33.5149|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:04.9989973|
+ 
+2020-05-02 16:55:33.5149|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9840288 ms for handshake retry...|
+ 
+2020-05-02 16:55:38.5004|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:38.5143|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:00:59.9975336|
+ 
+2020-05-02 16:55:38.5143|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9860330 ms for handshake retry...|
+ 
+2020-05-02 16:55:43.5006|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:43.5214|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:00:54.9972728|
+ 
+2020-05-02 16:55:43.5214|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9792479 ms for handshake retry...|
+ 
+2020-05-02 16:55:48.5016|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 16:55:48.5527|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:446)|ConsoleManagement.Tools.RemoteProxy|Connection with client established via WebSockets|
+ 
+2020-05-02 16:55:48.5527|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:119)|ConsoleManagement.Tools.RemoteProxy|Created connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-02 16:55:48.5939|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:125)|ConsoleManagement.Tools.RemoteProxy|Client service is responding.|
+ 
+2020-05-02 16:55:48.6849|INFO|ConsoleManagement.Tools.RemoteCommunication.ValidateClientVersion(#SUi:140)|ConsoleManagement.Tools.RemoteCommunication|ValidateClientVersion: mcVersion == 4.1.3.11482, managementVersion == 4.1.3, clientVersion == 4.1.3, result == True|
+ 
+2020-05-02 16:55:49.0223|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-02 16:55:49.0582|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-02 16:55:49.2067|ERROR|ConsoleManagement.Tools.RemoteManagementExceptionLogger.Log(#VUi:33)|ConsoleManagement.Tools.RemoteManagementExceptionLogger|Source: ArchivesHandler:GetListOfArchiveDetails
+;ErrorType:InvalidUserNameOrPassword|Opero.Client.Net.OperoExecutionException: Module:Server; Function:FunctionGetListOfArchiveDetails; Error:InvalidUserNameOrPassword; ErrorCode:60F2631E1000
+   w Opero.Client.Net.Management.RemoteManagement.GetListOfArchiveDetails(String user, String pwdHash)
+   w ConsoleManagement.Tools.ArchivesHandler.GetListOfArchiveDetails() w #KUi:wiersz 139    w Opero.Client.Net.Management.RemoteManagement.GetListOfArchiveDetails(String user, String pwdHash)
+   w ConsoleManagement.Tools.ArchivesHandler.GetListOfArchiveDetails() w #KUi:wiersz 139
+ 
+2020-05-02 16:58:34.2905|ERROR|Opero.Client.Net.HTTP.Client.HttpClient.sendRequest|Opero.Client.Net.HTTP.Client.HttpClient|Up³yn¹³ limit czasu operacji|System.Net.WebException: Up³yn¹³ limit czasu operacji
+   w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Net.HTTP.Client.Default.HttpResources.getResponse()
+   w Opero.Client.Net.HTTP.Client.Default.DefaultClient.makeRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)    w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Net.HTTP.Client.Default.HttpResources.getResponse()
+   w Opero.Client.Net.HTTP.Client.Default.DefaultClient.makeRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+ 
+2020-05-02 16:58:34.2905|ERROR|Opero.Client.Net.HTTP.Client.HttpClient.handleException|Opero.Client.Net.HTTP.Client.HttpClient|Wyst¹pi³ wyj¹tek: Up³yn¹³ limit czasu operacji|
+ 
+2020-05-02 16:58:34.2905|ERROR|Opero.Client.Net.HTTP.Client.HttpClient.sendRequest|Opero.Client.Net.HTTP.Client.HttpClient|Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022|Opero.Client.Net.OperoClientNetException: Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022
+   w Opero.Client.Net.HTTP.Client.HttpClient.handleException(Exception exception, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)    w Opero.Client.Net.HTTP.Client.HttpClient.handleException(Exception exception, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+ 
+2020-05-02 16:58:34.2905|ERROR|Opero.Client.Net.HTTP.Client.HttpClient.SendRequest|Opero.Client.Net.HTTP.Client.HttpClient|B³¹d podczas wysy³ania ¿¹dania wykonania funkcji FunctionCleanupRepository: HttpClientServerTimeoutError.|
+ 
+2020-05-02 16:58:34.2905|ERROR|ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey(#AVi:65)|ConsoleManagement.Forms.ChooseEncryptionKey|Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022|Opero.Client.Net.OperoClientNetException: Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022
+   w Opero.Client.Net.HTTP.Client.HttpClient.handleException(Exception exception, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionCleanupRepository.Execute(Boolean shouldLog, Session session, Int32 timeout, Int32 maxSendAttempts)
+   w ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey() w #AVi:wiersz 65    w Opero.Client.Net.HTTP.Client.HttpClient.handleException(Exception exception, SystemResult systemResult)
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionCleanupRepository.Execute(Boolean shouldLog, Session session, Int32 timeout, Int32 maxSendAttempts)
+   w ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey() w #AVi:wiersz 65
+ 
+2020-05-02 16:58:34.5655|ERROR|ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey(#AVi:103)|ConsoleManagement.Forms.ChooseEncryptionKey|Module:Server; Function:FunctionSetEncryptionSettings; Error:EncryptionSettingsAlreadyDefined; ErrorCode:60F0071E1100|Opero.Client.Net.OperoExecutionException: Module:Server; Function:FunctionSetEncryptionSettings; Error:EncryptionSettingsAlreadyDefined; ErrorCode:60F0071E1100
+   w Opero.Client.Net.Repository.General.FunctionSetEncryptionSettings.Execute(NewEncryptionSettings settings, Session session, Int32 timeout, Int32 maxSendAttempts)
+   w ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey() w #AVi:wiersz 103    w Opero.Client.Net.Repository.General.FunctionSetEncryptionSettings.Execute(NewEncryptionSettings settings, Session session, Int32 timeout, Int32 maxSendAttempts)
+   w ConsoleManagement.Forms.ChooseEncryptionKey.setEncryptionKey() w #AVi:wiersz 103
+ 
+2020-05-02 17:00:06.8042|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-02 17:01:21.3748|ERROR|ConsoleManagement.Forms.ListOfProjects.LogUnsynchronizedProjects(#pWi:373)|ConsoleManagement.Forms.ListOfProjects|
+-- Redundancy in projectsFromSettings: 
+Profil u¿ytkownika,Ró¿ne,Stare,ROMy,Narzêdzia i Systemy,Projekty
+|
+ 
+2020-05-02 17:01:25.6270|ERROR|ConsoleManagement.Controls.Backup.commonGetHostDetails(#PXi:440)|ConsoleManagement.Controls.Backup|Wyst¹pi³ b³¹d podczas wywo³ywania metody. W¹tek docelowy ju¿ nie istnieje.|System.ComponentModel.InvalidAsynchronousStateException: Wyst¹pi³ b³¹d podczas wywo³ywania metody. W¹tek docelowy ju¿ nie istnieje.
+   w System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   w System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   w System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   w Opero.Common.Win32.WinFormsHelper.invokeIfRequired(Control control, Action action, Boolean execute, Boolean async, String callerMemberName, Int32 callerLineNumber)
+   w ConsoleManagement.Controls.Backup.commonGetHostDetails(Int32 id, Boolean isReseller) w #PXi:wiersz 440    w System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+   w System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   w System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   w Opero.Common.Win32.WinFormsHelper.invokeIfRequired(Control control, Action action, Boolean execute, Boolean async, String callerMemberName, Int32 callerLineNumber)
+   w ConsoleManagement.Controls.Backup.commonGetHostDetails(Int32 id, Boolean isReseller) w #PXi:wiersz 440
+ 
+2020-05-02 17:32:04.1715|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-02 17:32:04.3646|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-02 17:32:09.3294|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-02 17:32:10.3565|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-02 17:32:10.5166|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-02 17:33:25.0131|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:365)|ConsoleManagement.RestoreManager|selectedFiles: 1|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:366)|ConsoleManagement.RestoreManager|localizationPath: C:\Users\nucleo\Desktop|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:369)|ConsoleManagement.RestoreManager|tooLongFullPaths: 0|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:375)|ConsoleManagement.RestoreManager|totalSizeToDownloadAllFiles: 2255|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:377)|ConsoleManagement.RestoreManager|fileOverriding: OnlyLater|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:442)|ConsoleManagement.RestoreManager|currentlyDownloadingFile: .kdiff3rc|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:493)|ConsoleManagement.RestoreManager|tempPath: C:\Users\nucleo\Desktop\C\Users\nucleo\.kdiff3rc.tmp|
+ 
+2020-05-02 17:33:25.0151|INFO|ConsoleManagement.RestoreManager.backgroundWorker_DoWork(#DUi:493)|ConsoleManagement.RestoreManager|Starting downloading version (RemoteManagement.DownloadVersion) ...|
+ 
+2020-05-02 20:18:16.5496|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-02 20:18:16.7398|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-02 20:18:21.1281|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-02 20:18:22.5237|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-02 20:18:22.7936|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-02 20:18:33.6444|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-02 20:18:33.6444|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:113)|ConsoleManagement.Tools.RemoteProxy|No remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-02 20:18:33.6444|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:369)|ConsoleManagement.Tools.RemoteProxy|Trying to connect using WebSockets...|
+ 
+2020-05-02 20:18:33.6444|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:375)|ConsoleManagement.Tools.RemoteProxy|WebSockets server URL: wss://panel2.backupexpert.pl/ws|
+ 
+2020-05-02 20:18:33.6444|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:378)|ConsoleManagement.Tools.RemoteProxy|Sending remote command to DB: CONNECT|
+ 
+2020-05-02 20:18:37.7200|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 20:18:37.7390|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:15|
+ 
+2020-05-02 20:18:37.7390|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9810304 ms for handshake retry...|
+ 
+2020-05-02 20:18:42.7209|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 20:18:42.7411|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:09.9990641|
+ 
+2020-05-02 20:18:42.7411|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9797855 ms for handshake retry...|
+ 
+2020-05-02 20:18:47.7219|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 20:18:47.7389|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:04.9980527|
+ 
+2020-05-02 20:18:47.7389|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9830670 ms for handshake retry...|
+ 
+2020-05-02 20:18:52.7228|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 20:18:52.7482|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:00:59.9971818|
+ 
+2020-05-02 20:18:52.7482|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9746640 ms for handshake retry...|
+ 
+2020-05-02 20:18:57.7237|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-02 20:18:57.7575|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:446)|ConsoleManagement.Tools.RemoteProxy|Connection with client established via WebSockets|
+ 
+2020-05-02 20:18:57.7575|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:119)|ConsoleManagement.Tools.RemoteProxy|Created connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-02 20:18:57.7976|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:125)|ConsoleManagement.Tools.RemoteProxy|Client service is responding.|
+ 

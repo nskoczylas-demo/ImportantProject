@@ -1,0 +1,10 @@
+2020-05-04 07:30:46.8422|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-04 07:30:47.0252|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-04 07:30:55.7440|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-04 07:30:57.3810|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-04 07:30:57.6536|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 

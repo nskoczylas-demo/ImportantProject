@@ -1,0 +1,26 @@
+2020-05-05 00:57:45.6021|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,00 %|This application allocated memory usage: 137128 KB|This application threads: 29
+CPU 10s average usage: 1,77 %|Disk time: 0,03 %|Disk idle time: 100,26 %|Disk write time: 0,03 %|Disk read time: 0,09 %|Disk average transfer/response time: 1,36 ms|Disk Bytes Transfer: 24,75 KB/s|RAM PercentFree: 27,44 %|
+ 
+2020-05-05 01:56:06.8809|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|Operating System: Microsoft Windows Server 2012 Standard|OS 64-bit: True|Process 64-bit: True|VisualC++ 2017 installed: True|RAM Total: 49106 MB|RAM Available: 13373 MB|RAM PercentFree: 27,23 %|RAM PercentOccupied: 72,77 %|Processor Name: Intel(R) Xeon(R) CPU E5-2420 0 @ 1.90GHz|Processor Clock Speed: 1900 MHz|Processor Manufacturer: GenuineIntel|Processor Version: |Processors count: 12|
+ 
+2020-05-05 01:57:46.9968|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,31 %|This application allocated memory usage: 137188 KB|This application threads: 31
+CPU 10s average usage: 1,53 %|Disk time: 0,26 %|Disk idle time: 100,06 %|Disk write time: 0,03 %|Disk read time: 0,01 %|Disk average transfer/response time: 0,91 ms|Disk Bytes Transfer: 28,36 KB/s|RAM PercentFree: 27,23 %|
+ 
+2020-05-05 02:57:45.7174|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,16 %|This application allocated memory usage: 137164 KB|This application threads: 30
+CPU 10s average usage: 1,80 %|Disk time: 0,03 %|Disk idle time: 100,25 %|Disk write time: 0,03 %|Disk read time: 0,01 %|Disk average transfer/response time: 0,85 ms|Disk Bytes Transfer: 33,95 KB/s|RAM PercentFree: 26,85 %|
+ 
+2020-05-05 03:57:45.6463|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,00 %|This application allocated memory usage: 137124 KB|This application threads: 29
+CPU 10s average usage: 1,76 %|Disk time: 0,03 %|Disk idle time: 100,27 %|Disk write time: 0,04 %|Disk read time: 0,01 %|Disk average transfer/response time: 6,26 ms|Disk Bytes Transfer: 11,40 KB/s|RAM PercentFree: 27,02 %|
+ 
+2020-05-05 04:57:45.7479|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,00 %|This application allocated memory usage: 137120 KB|This application threads: 29
+CPU 10s average usage: 1,59 %|Disk time: 0,03 %|Disk idle time: 100,27 %|Disk write time: 0,03 %|Disk read time: 0,01 %|Disk average transfer/response time: 0,62 ms|Disk Bytes Transfer: 66,25 KB/s|RAM PercentFree: 27,01 %|
+ 
+2020-05-05 05:57:45.6614|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,16 %|This application allocated memory usage: 137120 KB|This application threads: 30
+CPU 10s average usage: 2,47 %|Disk time: 0,03 %|Disk idle time: 100,26 %|Disk write time: 0,03 %|Disk read time: 0,01 %|Disk average transfer/response time: 1,05 ms|Disk Bytes Transfer: 17,25 KB/s|RAM PercentFree: 26,98 %|
+ 
+2020-05-05 06:57:45.7637|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,16 %|This application allocated memory usage: 137160 KB|This application threads: 30
+CPU 10s average usage: 2,17 %|Disk time: 0,08 %|Disk idle time: 100,25 %|Disk write time: 0,04 %|Disk read time: 0,02 %|Disk average transfer/response time: 0,96 ms|Disk Bytes Transfer: 70,49 KB/s|RAM PercentFree: 26,87 %|
+ 
+2020-05-05 07:57:45.7234|INFO|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler.HoursHardwareMonitoring_EventArrived|Opero.Common.Win32.Monitoring.HardwareMonitorScheduler|This application CPU 10s average usage: 0,00 %|This application allocated memory usage: 137120 KB|This application threads: 29
+CPU 10s average usage: 3,93 %|Disk time: 0,66 %|Disk idle time: 99,98 %|Disk write time: 0,11 %|Disk read time: 0,03 %|Disk average transfer/response time: 1,59 ms|Disk Bytes Transfer: 552,89 KB/s|RAM PercentFree: 26,52 %|
+ 

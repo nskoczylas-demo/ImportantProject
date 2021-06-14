@@ -1,0 +1,226 @@
+2020-05-04 00:25:15.9670|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:17.3287|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:23.7139|ERROR|Opero.Client.ClientApplication.Forms.BackupWizzard..ctor|Opero.Client.ClientApplication.Forms.BackupWizzard|Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022|Opero.Client.Net.OperoClientNetException: Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerTimeoutError; ErrorCode:10F4000E3022
+
+Server stack trace: 
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionGetVersionsLimit.Execute(Session session, Int32 timeout, Int32 maxSendAttempts)
+   w Opero.Client.ClientService.Remote.Others.GetVersionsLimit()
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   w System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   w Opero.Client.Common.Remote.OthersBase.GetVersionsLimit()
+   w Opero.Client.ClientApplication.Forms.BackupWizzard..ctor() 
+Server stack trace: 
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionGetVersionsLimit.Execute(Session session, Int32 timeout, Int32 maxSendAttempts)
+   w Opero.Client.ClientService.Remote.Others.GetVersionsLimit()
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   w System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   w Opero.Client.Common.Remote.OthersBase.GetVersionsLimit()
+   w Opero.Client.ClientApplication.Forms.BackupWizzard..ctor()
+ 
+2020-05-04 00:25:23.7139|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:25.0192|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:27.6898|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:28.9349|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 00:25:34.9764|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == ROMy, state == Initializing|
+ 
+2020-05-04 00:26:52.7911|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: end; name == ROMy, state == NotRunning|
+ 
+2020-05-04 07:04:52.3057|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: Opero.Client.Common Version: 4.1.3.11482 Directory: C:\Program Files (x86)\XoperoCloud\bin|
+ 
+2020-05-04 07:04:52.5667|INFO|Opero.Client.ClientApplication.App.Run|#fZ.#sZ|Current Culture: pl-PL|
+ 
+2020-05-04 07:04:52.7177|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-04 07:04:53.2157|INFO|Opero.Client.Common.CommonUtils.GetPortNumberThatShouldBeUsed|Opero.Client.Common.CommonUtils|Client selected port 9001|
+ 
+2020-05-04 07:04:53.2457|INFO|Opero.Client.ClientApplication.Remote.RemoteServices.#cwn|Opero.Client.ClientApplication.Remote.RemoteServices|Connecting to remote tcp service: type: MessagesTransportBase URI: tcp://127.0.0.1:9001/MessagesTransport|
+ 
+2020-05-04 07:04:53.2557|INFO|Opero.Client.ClientApplication.Remote.RemoteServices.#cwn|Opero.Client.ClientApplication.Remote.RemoteServices|Connecting to remote tcp service: type: AccountBase URI: tcp://127.0.0.1:9001/Account|
+ 
+2020-05-04 07:04:53.2557|INFO|Opero.Client.ClientApplication.Remote.RemoteServices.#cwn|Opero.Client.ClientApplication.Remote.RemoteServices|Connecting to remote tcp service: type: BackupSetsBase URI: tcp://127.0.0.1:9001/BackupSets|
+ 
+2020-05-04 07:04:53.2557|INFO|Opero.Client.ClientApplication.Remote.RemoteServices.#cwn|Opero.Client.ClientApplication.Remote.RemoteServices|Connecting to remote tcp service: type: ExchangeBase URI: tcp://127.0.0.1:9001/Exchange|
+ 
+2020-05-04 07:04:53.2557|INFO|Opero.Client.ClientApplication.Remote.RemoteServices.#cwn|Opero.Client.ClientApplication.Remote.RemoteServices|Connecting to remote tcp service: type: OthersBase URI: tcp://127.0.0.1:9001/Others|
+ 
+2020-05-04 07:04:53.2687|INFO|#AW.#CW.#z4c|#AW.#CW|Connected service responded properly within allowed time|
+ 
+2020-05-04 07:16:37.6894|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 07:19:23.7775|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == ROMy, state == Initializing|
+ 
+2020-05-04 07:25:02.6202|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 07:25:02.8222|INFO|Opero.Client.ClientApplication.Forms.BackupWizzard.set_CanPersonalize|Opero.Client.ClientApplication.Forms.BackupWizzard|CanPersonalize = True|
+ 
+2020-05-04 07:25:20.6825|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == ROMy, state == Initializing|
+ 
+2020-05-04 08:07:01.6897|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 08:09:33.7034|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 08:19:34.3752|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 08:21:52.2799|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 08:31:51.4337|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 08:33:57.2948|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 08:43:59.3334|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 08:46:19.2964|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 08:56:18.5161|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 08:58:28.3031|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 09:08:28.2979|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 09:10:30.2741|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 09:20:30.4788|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 09:23:59.2876|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 09:30:04.1413|INFO|#MY.#PY.Create|#MY.#PY|VolumeShadowCopyService.Create type : Standard|
+ 
+2020-05-04 09:30:10.3031|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == ROMy, state == Initializing|
+ 
+2020-05-04 09:58:12.3275|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Profil u퓓tkownika, state == Initializing|
+ 
+2020-05-04 10:10:52.1063|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 10:21:03.1871|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 10:31:12.1822|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 10:41:23.1846|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 10:51:34.1870|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:01:43.1823|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:11:54.1862|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:22:05.1851|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:32:14.1846|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:42:26.1844|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 11:52:35.1832|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:02:46.1837|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:12:57.1839|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:23:08.1824|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:33:19.1849|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:43:28.1855|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 12:53:39.1840|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 13:03:50.1843|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 13:13:59.1853|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 13:24:11.1837|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 13:34:21.1880|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 13:57:44.1890|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Uploading|
+ 
+2020-05-04 14:07:51.1872|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 14:18:02.1812|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 14:28:13.1836|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 14:38:22.1828|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 14:48:33.1871|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 14:58:42.1865|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:08:54.1858|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:19:04.1851|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:29:14.1851|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:39:25.1857|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:49:36.1862|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 15:59:45.1867|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 16:09:56.1817|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 16:20:05.1884|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 16:30:16.1849|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 16:34:59.1896|ERROR|Opero.Client.ClientApplication.Forms.MainSplash.VerifyEncryptionKey|Opero.Client.ClientApplication.Forms.MainSplash|Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerUnavailable; ErrorCode:10F4000E3000|Opero.Client.Net.OperoClientNetException: Module:Client; Function:FunctionMakeRequest; Error:HttpClientServerUnavailable; ErrorCode:10F4000E3000
+
+Server stack trace: 
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionGetEncryptionSettings.Execute(Session session, Int32 timeout, Int32 maxSendAttempts)
+   w #te.#se.#yxn()
+   w #te.#se.VerifyEncryptionKey()
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   w System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   w Opero.Client.Common.Remote.AccountBase.VerifyEncryptionKey()
+   w #AW.#zW.VerifyEncryptionKey()
+   w Opero.Client.ClientApplication.Forms.MainSplash.VerifyEncryptionKey() 
+Server stack trace: 
+   w Opero.Client.Net.HTTP.Client.HttpClient.sendRequest(IRequestBase request, HttpRequestReader reader, HttpResponseWriter writer, Int32 requestTimeout, Int32 responseTimeout, Int32 transferTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.HTTP.Client.HttpClient.SendRequest(IRequestBase request, Int32 responseTimeout, Int32 maxSendAttempts)
+   w Opero.Client.Net.Repository.General.FunctionGetEncryptionSettings.Execute(Session session, Int32 timeout, Int32 maxSendAttempts)
+   w #te.#se.#yxn()
+   w #te.#se.VerifyEncryptionKey()
+   w System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   w System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   w System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   w System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   w Opero.Client.Common.Remote.AccountBase.VerifyEncryptionKey()
+   w #AW.#zW.VerifyEncryptionKey()
+   w Opero.Client.ClientApplication.Forms.MainSplash.VerifyEncryptionKey()
+ 
+2020-05-04 16:44:36.2029|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Uploading|
+ 
+2020-05-04 16:54:41.1835|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 17:04:52.1856|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 17:15:01.1822|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 
+2020-05-04 17:25:12.1854|INFO|Opero.Client.ClientApplication.Forms.MainSplash.ShowBackupState|Opero.Client.ClientApplication.Forms.MainSplash|ShowBackupState: start; name == Stare, state == Initializing|
+ 

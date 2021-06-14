@@ -1,0 +1,169 @@
+2020-05-03 01:10:47.2698|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-03 01:10:47.4618|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-03 01:10:55.6659|ERROR|Opero.Common.Net.ManagementURL.GetServiceStatus|Opero.Common.Net.ManagementURL|Getting service status: Up造n像 limit czasu operacji|System.Net.WebException: Up造n像 limit czasu operacji
+   w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Common.Net.ManagementURL.GetServiceStatus(String urlToService)    w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Common.Net.ManagementURL.GetServiceStatus(String urlToService)
+ 
+2020-05-03 01:11:01.7191|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-03 01:11:01.9041|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-03 01:11:19.3165|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-03 01:11:22.8774|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-03 01:11:23.1893|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-03 01:11:44.4365|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 01:11:44.4365|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:113)|ConsoleManagement.Tools.RemoteProxy|No remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 01:11:44.4365|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:369)|ConsoleManagement.Tools.RemoteProxy|Trying to connect using WebSockets...|
+ 
+2020-05-03 01:11:44.4365|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:375)|ConsoleManagement.Tools.RemoteProxy|WebSockets server URL: wss://panel2.backupexpert.pl/ws|
+ 
+2020-05-03 01:11:44.4365|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:378)|ConsoleManagement.Tools.RemoteProxy|Sending remote command to DB: CONNECT|
+ 
+2020-05-03 01:11:45.7474|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-03 01:11:45.7939|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:446)|ConsoleManagement.Tools.RemoteProxy|Connection with client established via WebSockets|
+ 
+2020-05-03 01:11:45.7949|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:119)|ConsoleManagement.Tools.RemoteProxy|Created connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 01:11:45.8411|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:125)|ConsoleManagement.Tools.RemoteProxy|Client service is responding.|
+ 
+2020-05-03 01:11:45.9358|INFO|ConsoleManagement.Tools.RemoteCommunication.ValidateClientVersion(#SUi:140)|ConsoleManagement.Tools.RemoteCommunication|ValidateClientVersion: mcVersion == 4.1.3.11482, managementVersion == 4.1.3, clientVersion == 4.1.3, result == True|
+ 
+2020-05-03 01:11:46.5131|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 01:11:46.5571|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 01:11:46.7291|ERROR|ConsoleManagement.Tools.RemoteManagementExceptionLogger.Log(#VUi:33)|ConsoleManagement.Tools.RemoteManagementExceptionLogger|Source: ArchivesHandler:GetListOfArchiveDetails
+;ErrorType:InvalidUserNameOrPassword|Opero.Client.Net.OperoExecutionException: Module:Server; Function:FunctionGetListOfArchiveDetails; Error:InvalidUserNameOrPassword; ErrorCode:60F2631E1000
+   w Opero.Client.Net.Management.RemoteManagement.GetListOfArchiveDetails(String user, String pwdHash)
+   w ConsoleManagement.Tools.ArchivesHandler.GetListOfArchiveDetails() w #KUi:wiersz 139    w Opero.Client.Net.Management.RemoteManagement.GetListOfArchiveDetails(String user, String pwdHash)
+   w ConsoleManagement.Tools.ArchivesHandler.GetListOfArchiveDetails() w #KUi:wiersz 139
+ 
+2020-05-03 01:14:36.5223|ERROR|ConsoleManagement.Tools.RemoteManagementExceptionLogger.Log(#VUi:33)|ConsoleManagement.Tools.RemoteManagementExceptionLogger|Source: ArchivesHandler:GetArchiveTaskByTaskName
+;ErrorType:InvalidUserNameOrPassword|Opero.Client.Net.OperoExecutionException: Module:Server; Function:FunctionGetArchiveTaskByTaskName; Error:InvalidUserNameOrPassword; ErrorCode:60F2636E1000
+   w Opero.Client.Net.Management.RemoteManagement.GetArchiveTaskByTaskName(String user, String pwdHash, Int32 accountId, Int32 hostId, String taskName)
+   w ConsoleManagement.Tools.ArchivesHandler.GetArchiveTaskByTaskName(Int32 accountId, Int32 hostId, String backupSetName) w #KUi:wiersz 280    w Opero.Client.Net.Management.RemoteManagement.GetArchiveTaskByTaskName(String user, String pwdHash, Int32 accountId, Int32 hostId, String taskName)
+   w ConsoleManagement.Tools.ArchivesHandler.GetArchiveTaskByTaskName(Int32 accountId, Int32 hostId, String backupSetName) w #KUi:wiersz 280
+ 
+2020-05-03 01:14:36.5223|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 01:14:36.5754|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 01:14:36.6717|INFO|ConsoleManagement.Tools.RemoteCommunication.ValidateClientVersion(#SUi:140)|ConsoleManagement.Tools.RemoteCommunication|ValidateClientVersion: mcVersion == 4.1.3.11482, managementVersion == 4.1.3, clientVersion == 4.1.3, result == True|
+ 
+2020-05-03 09:59:16.0244|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-03 09:59:16.2044|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-03 09:59:20.6395|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-03 09:59:21.8710|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-03 09:59:22.2250|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-03 09:59:36.0663|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 09:59:36.0663|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:113)|ConsoleManagement.Tools.RemoteProxy|No remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 09:59:36.0663|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:369)|ConsoleManagement.Tools.RemoteProxy|Trying to connect using WebSockets...|
+ 
+2020-05-03 09:59:36.0663|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:375)|ConsoleManagement.Tools.RemoteProxy|WebSockets server URL: wss://panel2.backupexpert.pl/ws|
+ 
+2020-05-03 09:59:36.0663|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:378)|ConsoleManagement.Tools.RemoteProxy|Sending remote command to DB: CONNECT|
+ 
+2020-05-03 09:59:37.3813|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-03 09:59:37.4013|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:15|
+ 
+2020-05-03 09:59:37.4013|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9799940 ms for handshake retry...|
+ 
+2020-05-03 09:59:42.3813|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-03 09:59:42.3993|WARN|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:422)|ConsoleManagement.Tools.RemoteProxy|Handshake failed. Remaining total retry attempts time: 00:01:09.9999864|
+ 
+2020-05-03 09:59:42.3993|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:465)|ConsoleManagement.Tools.RemoteProxy|Waiting 00:00:04.9820378 ms for handshake retry...|
+ 
+2020-05-03 09:59:47.3823|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-03 09:59:47.4353|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:446)|ConsoleManagement.Tools.RemoteProxy|Connection with client established via WebSockets|
+ 
+2020-05-03 09:59:47.4353|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:119)|ConsoleManagement.Tools.RemoteProxy|Created connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 09:59:47.4703|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:125)|ConsoleManagement.Tools.RemoteProxy|Client service is responding.|
+ 
+2020-05-03 09:59:47.6043|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 09:59:47.6333|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 09:59:57.7329|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 09:59:57.7669|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:00:47.7104|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-03 10:00:47.8933|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-05-03 10:00:49.9414|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click(#vWi:557)|ConsoleManagement.Forms.LoginForm|Logging to: https://admin2.backupexpert.pl:443/ManagementService.svc|
+ 
+2020-05-03 10:00:50.3234|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-05-03 10:00:50.4623|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-05-03 10:01:15.2607|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:15.2607|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:113)|ConsoleManagement.Tools.RemoteProxy|No remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 10:01:15.2607|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:369)|ConsoleManagement.Tools.RemoteProxy|Trying to connect using WebSockets...|
+ 
+2020-05-03 10:01:15.2607|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:375)|ConsoleManagement.Tools.RemoteProxy|WebSockets server URL: wss://panel2.backupexpert.pl/ws|
+ 
+2020-05-03 10:01:15.2607|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint.ConnectWebSockets(#WUi:378)|ConsoleManagement.Tools.RemoteProxy|Sending remote command to DB: CONNECT|
+ 
+2020-05-03 10:01:15.9697|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:437)|ConsoleManagement.Tools.RemoteProxy|Sending Handshake to endpoint...|
+ 
+2020-05-03 10:01:16.0047|INFO|ConsoleManagement.Tools.RemoteProxy+ConnectionToEndPoint+<>c__DisplayClass15_0.<ConnectWebSockets>b__0(#WUi:446)|ConsoleManagement.Tools.RemoteProxy|Connection with client established via WebSockets|
+ 
+2020-05-03 10:01:16.0047|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:119)|ConsoleManagement.Tools.RemoteProxy|Created connection to: robkraw@gmail.com, CHROMA, 109.196.159.62|
+ 
+2020-05-03 10:01:16.0417|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:125)|ConsoleManagement.Tools.RemoteProxy|Client service is responding.|
+ 
+2020-05-03 10:01:16.0817|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:16.1167|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:01:26.2832|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:26.3202|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:01:36.2813|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:36.3153|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:01:46.2826|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:46.3167|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:01:56.2834|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:01:56.3354|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:02:06.2801|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:02:06.3232|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 10:02:16.2829|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:107)|ConsoleManagement.Tools.RemoteProxy|Getting remote connection to: robkraw@gmail.com, CHROMA, 109.196.159.62 - key: robkraw@gmail.com:CHROMA|
+ 
+2020-05-03 10:02:16.3169|INFO|ConsoleManagement.Tools.RemoteProxy+<>c__DisplayClass13_1.<GetRemoteConnection>b__0(#WUi:134)|ConsoleManagement.Tools.RemoteProxy|Remote connection exists and client service is responding.|
+ 
+2020-05-03 11:21:47.3324|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.11482 Directory: C:\Users\nucleo\AppData\Roaming\Xopero Software\XoperoCloud Management Center\bin|
+ 
+2020-05-03 11:21:47.5474|INFO|ConsoleManagement.App.Run(#wUi:23)|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 

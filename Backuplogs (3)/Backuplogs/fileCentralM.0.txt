@@ -1,0 +1,53 @@
+2020-03-12 15:45:16.7624|INFO|Opero.Client.Common.DynamicLoading.AssembliesPackage.GetNonDefaultPackages|Opero.Client.Common.DynamicLoading.AssembliesPackage|Non default packages:
+Version: 4.1.1.29854 Directory: C:\Users\Administrator\AppData\Roaming\Xopero Management Center\4.1.1.29854|
+ 
+2020-03-12 15:45:16.8004|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.1.29854 Directory: C:\Users\Administrator\AppData\Roaming\Xopero Management Center\4.1.1.29854|
+ 
+2020-03-12 15:45:16.9354|INFO|ConsoleManagement.App.Run|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-03-12 15:45:17.5095|INFO|Opero.Common.Runtime.ServerInstance.IsAllInOneServiceRunning|Opero.Common.Runtime.ServerInstance|IsAllInOneServiceRunning: Mutex Global\ServerInstanceMutex_OperoAllInOneService not found; this host dont have AllInOneSerive running|
+ 
+2020-03-12 15:45:19.6187|ERROR|Opero.Client.Common.QNAPFinder.tryAddDevice|Opero.Client.Common.QNAPFinder|onDeviceAdded|System.Net.WebException: Nie mo¿na po³¹czyæ siê z serwerem zdalnym ---> System.Net.Sockets.SocketException: Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia 10.10.0.7:45558
+   w System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   w System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Koniec œladu stosu wyj¹tków wewnêtrznych ---
+   w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Common.QNAPFinder.getServerStatus(Uri serverHost)
+   w Opero.Client.Common.QNAPFinder.tryAddDevice(QNAPDevice device)    w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Common.QNAPFinder.getServerStatus(Uri serverHost)
+   w Opero.Client.Common.QNAPFinder.tryAddDevice(QNAPDevice device)
+ 
+2020-03-12 15:45:24.4854|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click|ConsoleManagement.Forms.LoginForm|Logging to: https://10.10.0.9:45554/ManagementService.svc|
+ 
+2020-03-12 15:45:24.8245|WARN|Opero.Common.Utils.NameValueCollectionUtil.NameValueCollectionContainsKey|Opero.Common.Utils.NameValueCollectionUtil|NameValueCollection does not contain key XoperoCustomDataFolderPath|
+ 
+2020-03-12 15:45:24.9285|ERROR|Opero.Client.Common.WebSocketHelper.ClientConnect|Opero.Client.Common.WebSocketHelper|websocketConnectOK|
+ 
+2020-03-12 15:45:24.9285|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-03-12 15:45:27.7518|INFO|Opero.Client.Common.DynamicLoading.AssembliesPackage.GetNonDefaultPackages|Opero.Client.Common.DynamicLoading.AssembliesPackage|Non default packages:
+Version: 4.1.1.29854 Directory: C:\Users\Administrator\AppData\Roaming\Xopero Management Center\4.1.1.29854
+Version: 4.1.3.30901 Directory: C:\Users\Administrator\AppData\Roaming\Xopero Management Center\4.1.3.30901|
+ 
+2020-03-12 15:45:27.7838|INFO|Opero.Client.Common.DynamicLoading.AssemblyLoader..ctor|Opero.Client.Common.DynamicLoading.AssemblyLoader|Package loaded => MainAssemblyName: ConsoleManagementLib Version: 4.1.3.30901 Directory: C:\Users\Administrator\AppData\Roaming\Xopero Management Center\4.1.3.30901|
+ 
+2020-03-12 15:45:27.8969|INFO|ConsoleManagement.App.Run|Opero.Client.Common.DynamicLoading.AssemblyResolver|Current Culture: pl-PL|
+ 
+2020-03-12 15:45:28.4409|INFO|Opero.Common.Runtime.ServerInstance.IsAllInOneServiceRunning|Opero.Common.Runtime.ServerInstance|IsAllInOneServiceRunning: Mutex Global\ServerInstanceMutex_OperoAllInOneService not found; this host dont have AllInOneSerive running|
+ 
+2020-03-12 15:45:28.5269|INFO|ConsoleManagement.Forms.LoginForm.buttonLogin_Click|ConsoleManagement.Forms.LoginForm|Logging to: https://10.10.0.9:45554/ManagementService.svc|
+ 
+2020-03-12 15:45:28.8370|INFO|WebSocket4Net.WebSocket.OnHandshaked|Opero.Client.Common.WebSocketHelper|websocketClient_Opened|
+ 
+2020-03-12 15:45:30.5332|ERROR|Opero.Client.Common.QNAPFinder.tryAddDevice|Opero.Client.Common.QNAPFinder|onDeviceAdded|System.Net.WebException: Nie mo¿na po³¹czyæ siê z serwerem zdalnym ---> System.Net.Sockets.SocketException: Nie mo¿na nawi¹zaæ po³¹czenia, poniewa¿ komputer docelowy aktywnie go odmawia 10.10.0.7:45558
+   w System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   w System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Koniec œladu stosu wyj¹tków wewnêtrznych ---
+   w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Common.QNAPFinder.getServerStatus(Uri serverHost)
+   w Opero.Client.Common.QNAPFinder.tryAddDevice(QNAPDevice device)    w System.Net.HttpWebRequest.GetResponse()
+   w Opero.Client.Common.QNAPFinder.getServerStatus(Uri serverHost)
+   w Opero.Client.Common.QNAPFinder.tryAddDevice(QNAPDevice device)
+ 
+2020-03-12 15:45:41.0532|INFO|Opero.Client.Common.QNAPFinder.Find|Opero.Client.Common.QNAPFinder|Found XoperoServer device 10.10.0.9|
+ 
