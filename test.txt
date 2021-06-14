@@ -1,0 +1,21 @@
+Imperial College London
+
+Questions for the infrastructure:
+- How does your infrastructure look like?
+- How many devices on-site do you have? What operating systems do they use? How many of them are desktop devices and how many of them are servers?
+- Do you have any virtual environments (machines)?
+- Do you have any databases?
+- Are those devices in one or multiple locations?
+	- If there's multiple:
+		- Is there a connection between them? How are they connected?
+		- How many devices are available in each location? How much data?
+- Which of them(devices,services) are the most crucial if it comes to your work?
+- How is the Disaster Recovery realized? What if one of the systems crashes?
+
+Microsoft 365:
+- What Microsoft 365 Exchange deployment do you work on - online or hybrid?
+- What applications and services of Microsoft 365 do you use?(Mailboxes, Outlook, Calendars, Contacts, Sharepoint, Teams, etc..?)
+- Which of them are the most crucial if it comes to your work?
+
+Storage:
+- Do you have any storage that you could keep your backup on? Local or public cloud?
